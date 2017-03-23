@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryTranslucent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/web_view_fragment">
+
+    <ScrollView
+        android:id="@+id/social_handles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.championswimmer.libsocialbuttons.fabs.FABLinkedin
+                    android:id="@+id/linkedIn"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <in.championswimmer.libsocialbuttons.fabs.FABInstagram
+                    android:id="@+id/instagram"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <in.championswimmer.libsocialbuttons.fabs.FABFacebook
+                    android:id="@+id/facebook"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.championswimmer.libsocialbuttons.fabs.FABWhatsapp
+                    android:id="@+id/whatsApp"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <in.championswimmer.libsocialbuttons.fabs.FABTwitter
+                    android:id="@+id/twitter"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <in.championswimmer.libsocialbuttons.fabs.FABPinterest
+                    android:id="@+id/pinterest"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <in.championswimmer.libsocialbuttons.fabs.FABGoogleplus
+                    android:id="@+id/plus_google"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <in.championswimmer.libsocialbuttons.fabs.FABQuora
+                    android:id="@+id/quora"
+                    android:layout_margin="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:pager_animation="Stack"
+        custom:auto_cycle="false"/>
+
+</FrameLayout>
+
+<!--
+<in.championswimmer.libsocialbuttons.buttons.BtnTwitter
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/premsumanTwitter"
+android:layout_marginTop="10dp"/>
+
+<in.championswimmer.libsocialbuttons.buttons.BtnFacebook
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/premsuman8"
+android:layout_marginTop="10dp"/>
+
+<in.championswimmer.libsocialbuttons.buttons.BtnLinkedin
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/premsuman"
+android:layout_marginTop="10dp"/>
+
+<in.championswimmer.libsocialbuttons.buttons.BtnInstagram
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/premsumanInsta"
+android:layout_marginTop="10dp"/>
+
+<in.championswimmer.libsocialbuttons.buttons.BtnWhatsapp
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/premsuman_whatsapp"
+android:layout_marginTop="10dp"/>
+
+<in.championswimmer.libsocialbuttons.buttons.BtnQuora
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/prem_suman_quora"
+android:layout_marginTop="10dp"/>
+
+<in.championswimmer.libsocialbuttons.buttons.BtnPinterest
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/premsuman"
+android:layout_marginTop="10dp"/>
+
+<in.championswimmer.libsocialbuttons.buttons.BtnGoogleplus
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/premsumanPlus"
+android:layout_marginTop="10dp"/>
+-->

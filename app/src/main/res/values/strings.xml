@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">About Prem Suman</string>
+    <string name="action_settings">Settings</string>
+    <string name="mail_body_text">
+        Greetings Prem Suman,\n\n
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="premsuman">/PremSuman</string>
+    <string name="premsuman8">/PremSuman8</string>
+    <string name="premsumanPlus">+PremSuman</string>
+    <string name="premsumanTwitter">\@premsuman8</string>
+    <string name="premsumanInsta">\@premroax</string>
+    <string name="prem_suman_quora">/Prem-Suman</string>
+    <string name="premsumanPin">\@PremSuman</string>
+    <string name="premsuman_whatsapp">+919610114761</string>
+    <string name="choose_an_app">Choose an app</string>
+</resources>
